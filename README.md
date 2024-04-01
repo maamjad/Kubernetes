@@ -28,7 +28,7 @@ In this repository we will cover the following topics of kubernetes :
 2. Recreate 
 3. Blue Green 
 
-## Service
+## Kubernetes Service
 1. ClusterIP
 2. NodePort
 3. LoadBalancer
@@ -41,4 +41,28 @@ In this repository we will cover the following topics of kubernetes :
 
 ```
 kubectl get nodes 
+```
+
+```
+kubectl get pods 
+```
+
+```
+kubectl get pods -o wide 
+```
+
+```
+kubectl get namespace 
+```
+
+```
+kubectl describe node master  
+```
+
+```
+kubectl describe node worker 
+```
+
+```
+kubectl run web-server --image=nginx
 ```
