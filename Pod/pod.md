@@ -17,4 +17,4 @@ kubectl get pods
 ```
 #### 2. File Method
 
-1. [File Method](./pod.md)
+1. [File Method](./pod.yml)
