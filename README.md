@@ -39,30 +39,31 @@ In this repository we will cover the following topics of kubernetes :
 
 ### Kubernetes Basic Commands
 
+#### It is used to view the number of nodes
 ```
 kubectl get nodes 
 ```
-
+#### It is used to view the number of pods
 ```
 kubectl get pods 
 ```
-
+#### It is used to view the number of pods with details
 ```
 kubectl get pods -o wide 
 ```
-
+#### It is used to view the namespaces
 ```
 kubectl get namespace 
 ```
-
+#### It is used to view the deatils of the master node
 ```
 kubectl describe node master  
 ```
-
+#### It is used to view the deatils of the worker node
 ```
 kubectl describe node worker 
 ```
-
+#### It is used to create the pod
 ```
 kubectl run web-server --image=nginx
 ```
