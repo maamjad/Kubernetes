@@ -5,7 +5,7 @@ There are 2 basic methods of creating the POD
 1. Command line method
 2. File method
 
-## Command Line Method
+## 1.Command Line Method
 
 ```
 kubectl run web-server --image=nginx  
@@ -15,3 +15,6 @@ kubectl run web-server --image=nginx
 ```
 kubectl get pods  
 ```
+#### 2. File Method
+
+1. [File Method](./pod.md)
