@@ -5,7 +5,7 @@
 <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/>
 
 # This repository is all about kubernetes.
-In this repository we covered the following topics of kubernetes :
+In this repository we will cover the following topics of kubernetes :
 
 1. Pod
 2. Namespace
@@ -13,17 +13,29 @@ In this repository we covered the following topics of kubernetes :
 4. Replication Controller
 5. Replica Set
 6. Deployment
-
+7. Init Container 
+8. Multi Container
+9. RBAC
+10. ConfigMap
+11. Secrets
+12. Labels
+13. Pod Limit
+14. Resource Quota
+15. Limit Range
+    
 ## Kubernetes Deployment Strategies:
-7. Rolling Deployment
-8. Recreate 
-9. Blue Green 
+1. Rolling Deployment
+2. Recreate 
+3. Blue Green 
 
-10. Init Container 
-11. Multi Container
-12. RBAC
-13. ConfigMap
-14. Secrets
+## Service
+1. ClusterIP
+2. NodePort
+3. LoadBalancer
+
+## Kubernetes Storage
+1. PV
+2. PVC
 
 ### Kubernetes Basic Commands
 
